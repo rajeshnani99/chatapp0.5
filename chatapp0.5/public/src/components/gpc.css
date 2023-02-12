@@ -1,0 +1,46 @@
+/** @format */
+.main {
+	color: white;
+	width: 40%;
+	height: 50%;
+}
+.form-center {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+form {
+	background-color: white;
+	border-radius: 10px;
+}
+input {
+	display: block;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+button {
+	display: block;
+}
+li {
+	display: block;
+}
+.form-center {
+	position: fixed;
+	top: 50;
+	left: 50;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#create {
+	display: block;
+	padding: 10px;
+	border-radius: 5px;
+}
+#close {
+	padding: 1px;
+	border-radius: 5px;
+}
